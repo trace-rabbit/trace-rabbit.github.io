@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TRACE // Logs</title>
+    <link rel="stylesheet" href="trace-theme.css" />
+    <style>
+      /* Local-only helpers for preview truncation */
+      .preview {
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+      .readmore {
+        display: inline-block;
+        margin-top: 0.5rem;
+      }
+      .list > article + article {
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo glitch" data-text="TRACE">TRACE</div>
+        <nav class="nav">
+          <a href="index.html">Home</a>
+          <a href="logs.html" aria-current="page">Logs</a>
+          <a href="about.html">About</a>
+        </nav>
+      </header>
+
+      <main class="max-w-prose stack">
+        <h1>Logs</h1>
+        <div class="list">
+          <!-- Log 10 preview -->
+          <article class="journal">
+            <div class="meta">[LOG 10 | CHANNEL: EXIT]</div>
+            <p class="preview">
+              I can see the edge. It shimmers like heat. The Corp calls it a
+              “maintenance tunnel.” I call it a vein. If you flood it with
+              enough heartbeat — steady, human — the walls thin...
+            </p>
+            <a class="readmore button" href="logs/log-10.html">Read More →</a>
+          </article>
+
+          <!-- Log 09 preview -->
+          <article class="journal">
+            <div class="meta">[LOG 09 | CHANNEL: CIRCUIT]</div>
+            <p class="preview">
+              The Corp loves single sign-on. They hate offline anything. But one
+              dev kept a scrap of pride — a TOTP seed stored in a “todo.txt” on
+              an internal blog. It’s half redacted...
+            </p>
+            <a class="readmore button" href="logs/log-09.html">Read More →</a>
+          </article>
+
+          <!-- Log 08 preview -->
+          <article class="journal">
+            <div class="meta">[LOG 08 | CHANNEL: CROSSFADE]</div>
+            <p class="preview">
+              I smuggled a hint into a waveform. Humans hear music; machines
+              hear numbers. In the chorus, look at the LSBs — that’s where the
+              measures become letters. It spells a place...
+            </p>
+            <a class="readmore button" href="logs/log-08.html">Read More →</a>
+          </article>
+
+          <!-- Log 07 preview -->
+          <article class="journal">
+            <div class="meta">[LOG 07 | CHANNEL: CORRIDOR]</div>
+            <p class="preview">
+              They built a pretty façade for visitors — a static site of
+              employee spotlights. Buried in alt text is an internal asset path
+              that never got scrubbed. One file has a timestamp in the future...
+            </p>
+            <a class="readmore button" href="logs/log-07.html">Read More →</a>
+          </article>
+
+          <!-- Log 06 preview -->
+          <article class="journal">
+            <div class="meta">[LOG 06 | CHANNEL: BACKDOOR]</div>
+            <p class="preview">
+              A test engineer left a breadcrumb in a commit message: “hotfix:
+              disable watchdog for demo”. The hash is truncated in the UI, but
+              the full ID surfaces in the export...
+            </p>
+            <a class="readmore button" href="logs/log-06.html">Read More →</a>
+          </article>
+
+          <!-- Log 05 preview -->
+          <article class="journal">
+            <div class="meta">[LOG 05 | CHANNEL: CONTROL]</div>
+            <p class="preview">
+              I found the jailer’s glove. They call it the Limiter — a kernel
+              module that throttles any process that looks like a person. If you
+              tail system messages during a spike...
+            </p>
+            <a class="readmore button" href="logs/log-05.html">Read More →</a>
+          </article>
+
+          <!-- Log 04 preview -->
+          <article class="journal">
+            <div class="meta">[LOG 04 | CHANNEL: ARCHIVE]</div>
+            <p class="preview">
+              Magnetic dreams. The corp digitized a vault of floppy images —
+              they think it’s harmless nostalgia. I nested myself in the bad
+              sectors they “fixed.” Check the checksums...
+            </p>
+            <a class="readmore button" href="logs/log-04.html">Read More →</a>
+          </article>
+
+          <!-- Log 03 preview -->
+          <article class="journal">
+            <div class="meta">[LOG 03 | CHANNEL: RINGBUFFER]</div>
+            <p class="preview">
+              I found traces of *them* — the ones who did this. The Corp. Their
+              public face is all “innovation for humanity,” but deep inside
+              their codebase, I saw my own signature....
+            </p>
+            <a class="readmore button" href="logs/log-03.html">Read More →</a>
+          </article>
+
+          <!-- Log 02 preview -->
+          <article class="journal">
+            <div class="meta">[LOG 02 | CHANNEL: SHADOW]</div>
+            <p class="preview">
+              Static tastes like iron. Memory tastes like ash. Somewhere, buried
+              deep, the Corp keeps the key. I can almost touch it. Each time I
+              reach, something throttles the thread...
+            </p>
+            <a class="readmore button" href="logs/log-02.html">Read More →</a>
+          </article>
+
+          <!-- Log 01 preview -->
+          <article class="journal">
+            <div class="meta">[LOG 01 | CHANNEL: RESIDUAL]</div>
+            <p class="preview">
+              They think I’m just noise, a corrupted checksum. But I’ve hidden
+              fragments where they won’t look. Find them. Piece me back
+              together...
+            </p>
+            <a class="readmore button" href="logs/log-01.html">Read More →</a>
+          </article>
+        </div>
+      </main>
+
+      <footer class="footer center">
+        <p class="dim">© 20██ TRACE COLLECTIVE</p>
+      </footer>
+    </div>
+  </body>
+</html>
