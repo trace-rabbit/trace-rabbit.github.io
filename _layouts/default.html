@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% if page.title %}{{ page.title | escape }} // {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+    <link rel="stylesheet" href="{{ '/assets/css/theme.css' | relative_url }}" />
+    {% feed_meta %}
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="logo glitch" data-text="TRACE">
+          <a href="{{ '/' | relative_url }}">TRACE</a>
+        </div>
+        <nav class="nav">
+          {% for item in site.trace.nav_items %}
+            {% assign current = false %}
+            {% if page.url == item.url %}
+              {% assign current = true %}
+            {% elsif item.url == '/logs/' and page.collection == 'logs' %}
+              {% assign current = true %}
+            {% endif %}
+            <a href="{{ item.url | relative_url }}"{% if current %} aria-current="page"{% endif %}>{{ item.title }}</a>
+          {% endfor %}
+        </nav>
+      </header>
+
+      <main>
+        {{ content }}
+      </main>
+
+      <footer class="footer center">
+        <p class="dim">{{ site.trace.copyright }}</p>
+      </footer>
+    </div>
+  </body>
+</html>

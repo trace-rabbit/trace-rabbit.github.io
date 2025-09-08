@@ -1,0 +1,52 @@
+# Site settings
+title: "TRACE // Digital Echo"
+description: "Digital remnants of Elián Trace - an archivist lost in the network"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://trace-rabbit.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:year/:month/:day/:title/
+timezone: UTC
+
+# Collections
+collections:
+  logs:
+    output: true
+    permalink: /logs/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "logs"
+    values:
+      layout: "log"
+
+# Theme settings
+trace:
+  copyright: "© 20██ TRACE COLLECTIVE"
+  nav_items:
+    - title: "Home"
+      url: "/"
+    - title: "Logs"
+      url: "/logs/"
+    - title: "About"
+      url: "/about/"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md

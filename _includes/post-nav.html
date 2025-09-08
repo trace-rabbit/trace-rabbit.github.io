@@ -1,0 +1,32 @@
+<nav class="post-nav">
+  {% if include.previous %}
+    <a href="{{ include.previous.url | relative_url }}" class="button nav-previous">
+      ← {{ include.previous.title | truncate: 40 }}
+    </a>
+  {% endif %}
+  {% if include.next %}
+    <a href="{{ include.next.url | relative_url }}" class="button nav-next">
+      {{ include.next.title | truncate: 40 }} →
+    </a>
+  {% endif %}
+</nav>
+
+<style>
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.post-nav .button {
+  flex: 1;
+  min-width: 200px;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .post-nav {
+    flex-direction: column;
+  }
+}
+</style>

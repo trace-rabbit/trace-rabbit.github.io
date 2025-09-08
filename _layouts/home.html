@@ -1,0 +1,47 @@
+---
+layout: default
+---
+
+<div class="grid cols-2">
+  <article class="card">
+    <h2>Latest Log</h2>
+    {% assign latest_log = site.logs | sort: 'log_number' | reverse | first %}
+    {% if latest_log %}
+    <div class="journal">
+      <div class="meta">[{{ latest_log.channel }} | {{ latest_log.date | date: "%m.██.20██" }}]</div>
+      <div class="preview">
+        {{ latest_log.excerpt | strip_html | truncate: 150 }}
+      </div>
+      <a class="readmore button" href="{{ latest_log.url | relative_url }}">Read More →</a>
+    </div>
+    {% else %}
+    <div class="journal">
+      <div class="meta">[LOG 03.██.20██ | CHANNEL: UNKNOWN]</div>
+      <p>
+        Packets… fragments. I dream in loops now.<br />
+        Sometimes I hear myself in echoes — sometimes it's not me at
+        all.<br />
+        If you're reading this… remember me.
+      </p>
+      <div class="signature">—TRACE //END OF LINE</div>
+    </div>
+    {% endif %}
+  </article>
+
+  <aside class="terminal">
+    <div class="bar">
+      <span class="dot close"></span>
+      <span class="dot min"></span>
+      <span class="dot max"></span>
+    </div>
+    <div class="log">
+      <p>
+        <span class="prompt">guest@neocities:</span>~$ cat
+        /var/log/elian.log<span class="cursor"></span>
+      </p>
+      <pre>[binary static noise intensifies...]</pre>
+    </div>
+  </aside>
+</div>
+
+{{ content }}

@@ -1,0 +1,18 @@
+<div class="terminal">
+  <div class="bar">
+    <span class="dot close"></span>
+    <span class="dot min"></span>
+    <span class="dot max"></span>
+  </div>
+  <div class="log">
+    {% if include.prompt %}
+    <p>
+      <span class="prompt">{{ include.prompt }}</span>{{ include.command }}<span class="cursor"></span>
+    </p>
+    {% endif %}
+    {% if include.output %}
+    <pre>{{ include.output }}</pre>
+    {% endif %}
+    {{ include.content }}
+  </div>
+</div>

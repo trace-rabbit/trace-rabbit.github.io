@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="max-w-prose stack">
+  <h1>{{ page.title }} {% if page.channel %}<span class="badge">CHANNEL: {{ page.channel }}</span>{% endif %}</h1>
+  <div class="journal">
+    <div class="meta">[TIMESTAMP: {{ page.date | date: "%m.██.20██" }} | NODE: {{ page.node | default: "UNKNOWN" }}]</div>
+    {{ content }}
+    <div class="signature">—TRACE //END OF LINE</div>
+  </div>
+  <p><a class="button" href="{{ '/logs/' | relative_url }}">← Back to Logs</a></p>
+</div>

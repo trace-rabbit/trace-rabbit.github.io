@@ -1,0 +1,23 @@
+# CTF Flags for TRACE theme
+# These can be hidden in various parts of the site
+
+flags:
+  - name: "bootstrap"
+    value: "lascon{bootstrap_s1gn4l_0x8b02}"
+    location: "HTML comment in log-01"
+    
+  - name: "ghost_protocol"
+    value: "lascon{3rr0r_m3ss4g3_ch41n}"
+    location: "Error log pattern in ghost-protocols post"
+    
+  - name: "system_trace"
+    value: "lascon{d1g1t4l_4rch1v1st}"
+    location: "Hidden in CSS comments"
+    
+  - name: "network_echo"
+    value: "lascon{n3tw0rk_3ch0_l00p}"
+    location: "Base64 encoded in terminal output"
+
+# Example usage in templates:
+# {{ site.data.flags[0].value }}
+# Can be hidden in source comments like: <!-- {{ site.data.flags[1].value }} -->
