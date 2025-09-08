@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="max-w-prose stack">
+  <h1>{{ page.title }}</h1>
+  <article class="journal">
+    <div class="meta">[{{ page.date | date: "%Y.%m.%d" }} | {{ page.author | default: "TRACE" }}]</div>
+    {{ content }}
+    {% if page.tags.size > 0 %}
+    <div class="tags">
+      {% for tag in page.tags %}
+        <span class="badge">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </article>
+  
+  {% if page.previous or page.next %}
+    {% include post-nav.html previous=page.previous next=page.next %}
+  {% endif %}
+</div>

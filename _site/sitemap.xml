@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4001/logs/log-01/</loc>
+<lastmod>2024-03-01T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4001/logs/log-02/</loc>
+<lastmod>2024-03-02T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4001/logs/log-03/</loc>
+<lastmod>2024-03-03T00:00:00+00:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4001/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4001/</loc>
+</url>
+<url>
+<loc>http://localhost:4001/logs/</loc>
+</url>
+<url>
+<loc>http://localhost:4001/posts/</loc>
+</url>
+</urlset>
