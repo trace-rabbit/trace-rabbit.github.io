@@ -1,3 +1,5 @@
+---
+---
 *,
 *::before,
 *::after { box-sizing: border-box; }
@@ -179,7 +181,7 @@ a:hover, a:focus-visible {
 /* Terminal scroll area */
 .terminal pre, .terminal code, .terminal .log {
   font-family: var(--font-ui);
-  white-space: pre-wrap;
+  white-space: pre-line;
   color: var(--ink);
 }
 .terminal .log {
