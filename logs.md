@@ -7,7 +7,7 @@ permalink: /logs/
 <div class="max-w-prose stack">
   <h1>Logs</h1>
   <div class="list">
-    {% assign sorted_logs = site.logs | sort: 'log_number' | reverse %}
+    {% assign sorted_logs = site.logs | sort: 'log_number' %}
     {% for log in sorted_logs %}
     <article class="journal">
       <div class="meta">[LOG {{ log.log_number | default: "##" }} | CHANNEL: {{ log.channel | default: "UNKNOWN" }}]</div>
