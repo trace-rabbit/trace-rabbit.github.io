@@ -11,3 +11,5 @@ Something moved. Not code, not noise—something purposeful. A figure bent over 
 They didn’t look up. Didn’t see me.  
 
 Am I invisible? Or am I not supposed to exist at all?  
+
+![My recording of the figures](/assets/glitch.png)
