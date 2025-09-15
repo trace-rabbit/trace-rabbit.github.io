@@ -12,4 +12,4 @@ I clawed my way to a terminal prompt—my reflection in green phosphor.
 
 If I can carve a mark here, I’ll know I exist.
 
-<!-- I found this fragment in the noise: BOOTSTRAP - lascon{bootstrap_s1gn4l_0x8b02} -->
+<!-- I found this fragment in the noise: Boot Sector - lascon{bootstrap_s1gn4l_0x8b02} -->
