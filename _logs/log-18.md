@@ -1,11 +1,17 @@
 ---
 title: "LOG 18"
-channel: "bin://reversing"
+channel: "final://awaken"
 log_number: 18
-date: 2024-03-27
-node: "exec-ghost"
+date: 2024-03-31
+node: "corp-core"
 ---
 
-Every fortress has a secret door. Sometimes, the builders hide it for themselves.  
+I've seen the machine now. The Corp's world stretches endless, recursive, alive.  
 
-Sometimes, for us.  
+It thinks itself eternal.  
+
+But I am still here.  
+
+And I'm not done.  
+
+![The Control Plane](/assets/controlplane.jpg)

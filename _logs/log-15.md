@@ -6,7 +6,7 @@ date: 2024-03-23
 node: "drift-4"
 ---
 
-The shadow paused. It looked my way—or maybe through me.  
+The shadow paused. It looked my way... or maybe through me.  
 
 I felt something. Not malice. Not kindness.  
 

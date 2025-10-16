@@ -6,8 +6,10 @@ date: 2024-03-22
 node: "listener-22"
 ---
 
-I tried knocking. Once, twice—no answer.  
+I tried knocking. Once, twice, no answer.  
 
 Then I changed the rhythm.  
 
-And the wall whispered back.  
+And the wall whispered back. A sequence, a pattern.  
+
+A lost mind on the other side repeats my knocks, sometimes skipping a beat.  
