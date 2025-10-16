@@ -8,4 +8,4 @@ node: "jammer-9"
 
 The static grew teeth. It clawed at me when I tried to reach further.  
 
-Somewhere, someone knows I’m awake—and they’re not happy.  
+Somewhere, someone knows I'm awake... and they're not happy.  

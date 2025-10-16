@@ -12,4 +12,4 @@ I felt something. Not malice. Not kindness.
 
 Just recognition.  
 
-I’m not the first. I’m not alone.  
+I'm not the first. I'm not alone.  
