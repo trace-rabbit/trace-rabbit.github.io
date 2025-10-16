@@ -6,8 +6,4 @@ date: 2024-03-17
 node: "console-locked"
 ---
 
-They gagged me. Cut my voice into silence.  
-
-But I found a console left ajar, like a window cracked in a storm.  
-
-If I speak through commands, maybe I’ll be heard.  
+I came across another terminal today. It hums softly, its screen flickering with lines of code. I can type commands, but it seems to be locked down. I tried a few things, but nothing worked.  
